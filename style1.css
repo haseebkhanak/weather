@@ -1,0 +1,278 @@
+body{
+        background-color:rgb(49, 47, 47);
+    }
+    
+#rain{
+        width: 245px;
+        height: 175px;
+        margin-left: 400px;
+    }
+
+#btn1{
+  width: 110px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 20px;
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+  box-shadow: 3px 3px white;
+}
+
+#btn2{
+    width: 110px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    box-shadow: 3px 3px white;
+  }
+
+.temp{
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.feelslike{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.precip{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.condition{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.humidity{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.main2{
+    display: flex;
+    justify-content: center;
+}
+
+.max{
+    color: aliceblue;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.min{
+    color: aliceblue;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
+.wind{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+.loc{
+    color: rgb(43, 44, 44);
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+.one{
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+#cities{
+    width: 250px;
+    height: 40px;
+    border-radius:10px;
+    box-shadow: 4px 4px rgb(151, 148, 148);
+}
+
+.con{
+    background-image: linear-gradient(to right, rgb(85, 83, 83),grey,rgb(212, 212, 216));
+    margin-left: 500px;
+    width: 350px;
+    height: 350px;
+    border-radius:30px;
+    box-shadow: 10px 10px rgb(151, 148, 148);
+    display: none;
+}
+
+.main3{
+    background-image: linear-gradient(to right, rgb(85, 83, 83),grey,rgb(212, 212, 216));
+    margin-left: 500px;
+    width: 350px;
+    height: auto;
+    border-radius:30px;
+    box-shadow: 10px 10px rgb(151, 148, 148);
+    display: none;
+}
+
+@media (max-width:500px) {
+    .con{
+        background-image: linear-gradient(to right, rgb(85, 83, 83),grey,rgb(212, 212, 216));
+        margin-top: 50px;
+        margin-left: 40px;
+        width: 280px;
+        height: 280px;
+        border-radius:30px;
+        box-shadow: 10px 10px rgb(151, 148, 148);
+        display: none;
+    }
+    
+    .main3{
+        background-image: linear-gradient(to right, rgb(85, 83, 83),grey,rgb(212, 212, 216));
+        margin-top: 50px;
+        margin-left: 40px;
+        width: 280px;
+        height: auto;
+        border-radius:30px;
+        box-shadow: 10px 10px rgb(151, 148, 148);
+        display: none;
+    }
+#rain{
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+    margin-left: 90px;
+    }
+
+#cities{
+    margin-top: 10px;
+    width: 200px;
+    border-radius:10px;
+    box-shadow: 4px 4px rgb(151, 148, 148);
+}
+
+#btn1{
+  width: 90px;
+  height: 45px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#btn2{
+    width: 90px;
+    height: 45px;
+    font-size: 12px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+
+.temp{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.feelslike{
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.precip{
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.condition{
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.humidity{
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.main2{
+    display: flex;
+    justify-content: center;
+}
+
+.max{
+    color: aliceblue;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.min{
+    color: aliceblue;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
+.wind{
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+.loc{
+    margin-top: 15px;
+    color: rgb(43, 44, 44);
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+.one{
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+}
+
